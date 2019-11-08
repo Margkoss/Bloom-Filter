@@ -1,0 +1,19 @@
+{
+  "name": "bloomfilters",
+  "version": "1.0.0",
+  "description": "Javascript bloom filter implementation",
+  "main": "app.js",
+  "scripts": {
+    "test":"mocha"
+  },
+  "author": "Margkoss",
+  "license": "ISC",
+  "dependencies": {
+    "fnv-plus": "^1.2.12",
+    "murmurhash": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
